@@ -9,10 +9,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import {faPhone} from '@fortawesome/free-solid-svg-icons'
+import {faPhone,faCopyright,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub,faGitAlt,faReact, faVuejs, faNodeJs} from '@fortawesome/free-brands-svg-icons'
 
-library.add(faPhone)
+library.add(faPhone,faCopyright,faEnvelope)
 library.add(faLinkedin, faGithub,faGitAlt,faReact,faVuejs,faNodeJs)
 
 const app = createApp(App)
